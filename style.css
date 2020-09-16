@@ -158,7 +158,7 @@
     }
     ol li::before {
         content: counter(My-count);
-        background: #373449;
+        background: #5f5b79;
         width: 2rem;
         height: 2rem;
         border-radius: 50%;
@@ -178,7 +178,18 @@
         line-height: 30px;
         border: none;
         cursor: pointer;
+
     }
+    li button:hover{
+        color: #49465f;
+    }
+    #new {
+        text-align: center;
+        padding: 5px  0px 0px 80px;
+        font-size: 1.2rem;
+        color: #23212c ;
+    }
+    
 }
 /*----------------small devices--------*/
 @media only screen and (min-width: 1000px) {
